@@ -1,0 +1,42 @@
+#m1
+live_loop :seven do
+  use_bpm 80
+  use_synth :piano
+  
+  #m1
+  play :e3
+  sleep 1.5
+  play :e3
+  sleep 0.25
+  play :g3
+  sleep 0.66666
+  play :e3
+  sleep 0.66666
+  play :d3
+  sleep 0.66666
+  play :c3
+  sleep 2
+  play :B2
+  sleep 1
+  sleep 1 #rest
+  
+  
+  play :e3
+  sleep 1.5
+  play :e3
+  sleep 0.25
+  play :g3
+  sleep 0.66666
+  play :e3
+  sleep 0.66666
+  play :d3
+  sleep 0.66666
+  play :c3
+  sleep 0.75
+  play :d3
+  sleep 0.75
+  play :C3
+  sleep 0.75
+  play :B2
+  sleep 1
+end
