@@ -1,0 +1,14 @@
+use_bpm 160
+use_synth :saw
+main_theme = ["c2","e2","g2","b2","c3","b2","g2","e2"]
+d = 0
+live_loop :main_theme do
+  with_fx :distortion do
+    play main_theme[d]
+    d = d + 1
+    if d > 7
+      d = 0
+    end
+    sleep 0.5
+  end
+end
