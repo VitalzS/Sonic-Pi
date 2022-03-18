@@ -1,0 +1,46 @@
+ define :whole do |n1|
+    with_fx :distortion do
+      use_bpm 160
+      use_synth :saw
+      play n1
+      sleep 0.5
+    end
+  end
+  stop
+end
+
+whole :c2
+whole :e2
+whole :g2
+whole :b2
+whole :c3
+whole :b2
+whole :g2
+whole :e2
+
+whole :c3
+whole :e3
+whole :g3
+whole :b3
+whole :c4
+whole :b3
+whole :g3
+whole :e3
+
+whole :c4
+whole :e4
+whole :g4
+whole :b4
+whole :c5
+whole :b4
+whole :g4
+whole :e4
+
+whole :c5
+whole :e5
+whole :g5
+whole :b5
+whole :c6
+whole :b5
+whole :g5
+whole :e5
